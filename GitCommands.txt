@@ -1,0 +1,41 @@
+Important Git Commands: 
+
+git init
+
+git add <files> <==> git rm -r <files>
+
+git status
+
+git commit -m "Message" <==> git restore --staged <files>
+
+git log
+
+git reset <commit point>
+
+git stash
+
+git stash pop
+
+git stash clear
+
+git remote add origin <URL> or git remote add upstream <URL>
+
+git remote -v ==> for all remote urls
+
+git push origin <branch>
+
+git branch <branch>
+
+git checkout <branch>
+
+git merge <branch>
+
+git clone <URL>
+
+git fetch --all --prune ==> fetch all the branches
+
+git reset --hard upstream/main
+
+git pull upstream <branch> or git pull origin <branch> 
+
+git rebase -i <commit point>
